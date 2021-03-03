@@ -14,6 +14,12 @@
     text-align: center;
     line-height: 50px;
 }
+        
+.mother{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
 
 .grad1{
     background-image: linear-gradient(red, yellow)
@@ -47,13 +53,16 @@
    </style>
 </head>
 <body>
-    <div class="grad1 smallboxsize">top to bottom</div>
-    <div class="grad2 smallboxsize">left to right</div>
-    <div class="grad3 smallboxsize">right to left</div>
-    <div class="grad4 smallboxsize">diagonal bottom right</div>
-    <div class="grad5 smallboxsize">diagonal bottom left</div>
-    <div class="grad6 smallboxsize">275 degrees</div>
-    <div class="grad7 smallboxsize">0 degree</div>
+    <div class="mother">
+        <div class="grad1 smallboxsize">top to bottom</div>
+         <div class="grad2 smallboxsize">left to right</div>
+         <div class="grad3 smallboxsize">right to left</div>
+         <div class="grad4 smallboxsize">diagonal bottom right</div>
+         <div class="grad5 smallboxsize">diagonal bottom left</div>
+         <div class="grad6 smallboxsize">275 degrees</div>
+         <div class="grad7 smallboxsize">0 degree</div>
+    </div>
+    
     
 
 </body>
