@@ -1,0 +1,37 @@
+.smallboxsize{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.grad1{
+    background-image: linear-gradient(red, yellow)
+}
+
+.grad2{
+    background-image: linear-gradient(to right, red , yellow );
+}
+
+.grad3{
+    background-image: linear-gradient(to left, grey , green  );
+}
+
+.grad4{
+    background-image: linear-gradient(to bottom right, red, yellow, violet);
+}
+
+.grad5{
+    background-image: linear-gradient(to bottom left, red, yellow);
+}
+
+.grad6{
+    background-image: linear-gradient(275deg, yellow, grey, violet, green);
+}
+
+.grad7{
+    background-image: linear-gradient(0deg, yellow, red);
+}
+
